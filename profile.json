@@ -1,0 +1,54 @@
+[
+    {
+        "fname" : "Kehinde",
+        "lname" : "Lawal",
+        "age" : 9,
+        "hobbies" : ["music", "movies","coding","fitness", "reading"],
+        "friends" : [
+            {
+                "fname" : "Taiwo",
+                "lname" : "Lawal",
+                "age" : 7,
+                "hobbies" : ["music", "movies","coding","fitness", "reading"]
+
+            },
+
+            {
+                "fname" : "Azeez",
+                "lname" : "Alao",
+                "age" : 6,
+                "hobbies" : ["music", "movies","coding","fitness", "reading"]
+
+            }
+        ]
+
+    },
+
+
+    {
+        "fname" : "Bolaji",
+        "lname" : "Lawal",
+        "age" : 9,
+        "hobbies" : ["music", "movies","coding","fitness", "reading"],
+        "friends" : [
+            {
+                "fname" : "Taiwo",
+                "lname" : "Lawal",
+                "age" : 7,
+                "hobbies" : ["music", "movies","coding","fitness", "reading"]
+
+            },
+
+            {
+                "fname" : "Azeez",
+                "lname" : "Alao",
+                "age" : 6,
+                "hobbies" : ["music", "movies","coding","fitness", "reading"]
+
+            }
+        ]
+
+    }
+
+    
+]

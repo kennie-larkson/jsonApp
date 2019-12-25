@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Using JSON</title>
+    
+</head>
+<body>
+
+    <script>
+
+        const profile = 
+        [
+    {
+        "fname" : "Kehinde",
+        "lname" : "Lawal",
+        "age" : 9,
+        "hobbies" : ["music", "movies","coding","fitness", "reading"],
+        "friends" : [
+            {
+                "fname" : "Taiwo",
+                "lname" : "Lawal",
+                "age" : 7,
+                "hobbies" : ["music", "movies","coding","fitness", "reading"]
+
+            },
+
+            {
+                "fname" : "Azeez",
+                "lname" : "Alao",
+                "age" : 6,
+                "hobbies" : ["music", "movies","coding","fitness", "reading"]
+
+            }
+        ]
+
+    },
+
+
+    {
+        "fname" : "Bolaji",
+        "lname" : "Lawal",
+        "age" : 9,
+        "hobbies" : ["music", "movies","coding","fitness", "reading"],
+        "friends" : [
+            {
+                "fname" : "Taiwo",
+                "lname" : "Lawal",
+                "age" : 7,
+                "hobbies" : ["music", "movies","coding","fitness", "reading"]
+
+            },
+
+            {
+                "fname" : "Azeez",
+                "lname" : "Alao",
+                "age" : 6,
+                "hobbies" : ["music", "movies","coding","fitness", "reading"]
+
+            }
+        ]
+
+    }
+
+    
+];
+        
+        JSON.stringify(profile);
+        console.log(JSON.stringify(profile[0].friends[1].hobbies[3], '\t', 2));
+
+
+    </script>
+</body>
+</html>
